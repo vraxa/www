@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "sony";
+    src: url("resources/sonycam-original.ttf");
+}
+
+body {
+    background-color: #0d0d0d;
+}
+#reminder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 95%;
+    height: 95%;
+    z-index: 1001;
+    pointer-events: none;
+}
+#reminder h {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    font-family: sony;
+    text-align: center;
+    opacity: 0;
+    transition:
+        opacity 3s,
+        top 3s;
+}
+#navbar {
+    font-family: sony;
+    border: dashed 3px white;
+    border-radius: 5px;
+    --padding: 1%;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    position: sticky;
+    z-index: 1000;
+    top: 5;
+    background-color: #0d0d0d;
+    transition:
+        top 1s,
+        opacity 1s,
+        display 1s,
+        height 1s;
+}
+#titlecontainer {
+    transition: padding-top 0.4s;
+    padding-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: auto;
+}
+#titlebar {
+}
+#blinker {
+    display: inline;
+    opacity: 1;
+}
+#titlecontainer h {
+    font-size: 36px;
+    margin: auto;
+}
+
+#navico {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    --display: none;
+    padding: 0;
+    transition: flex-grow 1s;
+}
+#navico li {
+    background-color: #0d0d0d;
+    padding: 3%;
+    font-size: 1em;
+}
+#navico li:hover {
+    background-color: #242424;
+}
+#navico a {
+    text-decoration: none;
+    color: white;
+}
+#navico ul a:hover {
+    color: red;
+}
+
+.content {
+    width: 80lvw;
+    margin-bottom: 20lvh;
+    border: 3px dashed white;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    opacity: 0;
+    text-align: center;
+    font-family: sony;
+    transition: opacity 1s;
+}
+
+#nav1 {
+    display: none;
+}
