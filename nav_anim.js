@@ -17,6 +17,7 @@ let isnavsticky = false;
 let remindershown = false;
 let gonetotop = false;
 
+/*
 window.addEventListener("scroll", (event) => {
   if (window.scrollY > 300 && !isnavsticky) {
     console.log("stuck");
@@ -37,19 +38,9 @@ window.addEventListener("scroll", (event) => {
     changecontent(0);
   }
 });
+*/
 
-let test = [
-  ":)",
-  ";-;",
-  "hello!",
-  "o_o",
-  "I.I",
-  ":D",
-  ":(",
-  "what's up?",
-  "scroll down!",
-  "Yeah, Right!",
-];
+let test = [":)", ";-;", "hello!", "o_o", "I.I", ":D", ":("];
 
 let lock = false;
 let timer = null;

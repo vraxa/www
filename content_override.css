@@ -1,0 +1,56 @@
+#navbar {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 60dvw;
+    font-size: 1em;
+}
+#titlecontainer {
+    width: 30%;
+    display: flex;
+    align-items: center; /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    height: 100%; /* make it the same height as #navbar */
+    padding: 0px;
+    margin-top: 3%;
+}
+#titlecontainer h {
+    font-size: 2em;
+}
+#navico {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#titlebar {
+    font-size: 36px;
+    margin: 0;
+    line-height: 1; /* helps remove weird vertical spacing */
+}
+
+#blinker {
+    font-size: 36px;
+    margin: 0;
+    line-height: 1;
+}
+
+#titletext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* spacing between text and blinker */
+}
+#content {
+    margin-top: 6%;
+    color: white;
+    width: 70%;
+    font-family: sony;
+    font-size: 40px;
+}
+#nav1 {
+    display: none;
+}
