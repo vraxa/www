@@ -1,6 +1,11 @@
 .content {
-    margin-left: 20%;
     margin-top: 20dvh;
+    width: 80%;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#projects {
 }
 .content h {
     font-size: 1em;

@@ -47,7 +47,7 @@
 .content {
     margin-top: 6%;
     color: white;
-    width: 80%;
+    width: fit-content;
     font-family: sony;
     font-size: 40px;
     display: flex;
