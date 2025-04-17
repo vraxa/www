@@ -3,6 +3,10 @@
     src: url("resources/sonycam-original.ttf");
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 body {
     background-color: #0d0d0d;
 }
@@ -25,11 +29,7 @@ body {
     z-index: 1000;
     top: 5;
     background-color: #0d0d0d;
-    transition:
-        top 1s,
-        opacity 1s,
-        display 1s,
-        height 1s;
+    view-transition-name: hero;
 }
 #titlecontainer {
     transition: padding-top 0.4s;
@@ -64,13 +64,15 @@ body {
     padding: 0;
     transition: flex-grow 1s;
 }
-#navico li {
+.nav {
     background-color: #0d0d0d;
     padding: 3%;
     font-size: 1em;
+    transition: background-color 0.2s;
 }
-#navico li:hover {
+.nav:hover {
     background-color: #242424;
+    cursor: pointer;
 }
 #navico a {
     text-decoration: none;
@@ -79,20 +81,6 @@ body {
 #navico ul a:hover {
     color: red;
 }
-
-.content {
-    width: 80lvw;
-    margin-bottom: 20lvh;
-    border: 3px dashed white;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    opacity: 0;
-    text-align: center;
-    font-family: sony;
-    transition: opacity 1s;
-}
-
-#nav1 {
-    display: none;
+.isActive {
+    color: red;
 }

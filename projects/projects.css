@@ -1,0 +1,13 @@
+.content {
+    margin-left: 20%;
+    margin-top: 20dvh;
+}
+.content h {
+    font-size: 1em;
+}
+.content p {
+    font-size: 0.4em;
+}
+#nav4 {
+    color: red;
+}

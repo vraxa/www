@@ -4,29 +4,44 @@
         <title>VXA / WHOAMI?</title>
         <link rel="stylesheet" href="../navbar.css" />
         <link rel="stylesheet" href="../content_override.css" />
+        <link rel="stylesheet" href="whoami.css" />
     </head>
     <body>
         <div id="navbar">
             <div id="titlecontainer">
                 <div id="titletext">
                     <h id="titlebar"></h>
-                    <h id="blinker">_</></h>
+                    <h id="blinker">_</l></h>
                 </div>
             </div>
             <ul id="navico">
-                <li id="nav1">HOME</li>
-                <li id="nav2">WHOAMI</li>
-                <li id="nav3">CONTACT</li>
-                <li id="nav4">PROJECTS</li>
-                <li id="nav5">BLOG</li>
+                <li class="nav" id="nav1" onclick="location.href='/'">HOME</li>
+                <li class="nav" id="nav2">WHOAMI</li>
+                <li class="nav" id="nav3" onclick="location.href='/contact'">CONTACT</li>
+                <li class="nav" id="nav4" onclick="location.href='/projects'">PROJECTS</li>
+                <li class="nav" id="nav5">BLOG</li>
             </ul>
         </div>
-        <div id="content">
-            <h1>HELLO</h1>
-            <p>I am a developer, sysadmin, and devops engineer with a deep skillset in automation and infrastructure management.</p>
-            <p>I have experience with various programming languages, including Python, JavaScript, and Go.</p>
-            <p>I am also proficient in cloud computing platforms such as AWS and Azure, and have experience with containerization technologies like Docker and Kubernetes.</p>
+        <div id="content" class="content">
+            <div id="textside">
+                <h2>hello</h2>
+                <p>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam convallis et nibh sodales sollicitudin. Aliquam at libero maximus, vulputate libero sodales, consequat nisi. Vivamus malesuada quam tempus tempus ultricies. Aliquam ut blandit erat. Proin vitae sem maximus, faucibus erat ut, eleifend nulla. Donec blandit ut metus a consectetur. Mauris ullamcorper molestie mi.
+
+                    Sed massa urna, suscipit nec tempor ut, ornare a tortor. Quisque in molestie arcu, ac accumsan mauris. Donec eleifend magna ac pretium tempor. Vestibulum finibus turpis dolor, fringilla fermentum enim laoreet at. Morbi id dignissim lacus. Mauris luctus in lorem auctor viverra. Aliquam eget odio interdum, auctor purus dignissim, vulputate nulla.
+
+                    Sed sit amet eros scelerisque, faucibus libero a, eleifend arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam elementum libero purus, nec interdum felis molestie vitae. Nunc et odio leo. Vivamus sit amet interdum mi, eget dignissim ipsum. Vestibulum risus sem, placerat eu ex eu, faucibus pretium tellus. In pharetra feugiat ullamcorper. Vivamus turpis massa, varius quis magna pharetra, consequat venenatis tortor. Phasellus fermentum, sem eget facilisis fermentum, lorem ipsum finibus augue, non blandit dui purus ac augue. Vestibulum molestie porttitor nibh eu condimentum. Praesent ac interdum nibh.
+                </p>
+
+                <h4>heading thing</h4>
+            </div>
+            <div id="piccies">
+                <img src="../resources/testicle.png">
+            </div>
         </div>
     </body>
     <script src="../nav_anim.js"></script>
+    <script src="script.js"></script>
+
 </html>

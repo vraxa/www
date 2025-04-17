@@ -7,7 +7,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
-    width: 60dvw;
+    width: 50dvw;
     font-size: 1em;
 }
 #titlecontainer {
@@ -27,13 +27,13 @@
     margin-bottom: 1%;
 }
 #titlebar {
-    font-size: 36px;
+    font-size: 1em;
     margin: 0;
     line-height: 1; /* helps remove weird vertical spacing */
 }
 
 #blinker {
-    font-size: 36px;
+    font-size: 1em;
     margin: 0;
     line-height: 1;
 }
@@ -44,13 +44,14 @@
     justify-content: center;
     gap: 5px; /* spacing between text and blinker */
 }
-#content {
+.content {
     margin-top: 6%;
     color: white;
-    width: 70%;
+    width: 80%;
     font-family: sony;
     font-size: 40px;
+    display: flex;
 }
-#nav1 {
-    display: none;
+#content {
+    view-transition-name: uhh;
 }

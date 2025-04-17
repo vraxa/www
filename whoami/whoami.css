@@ -1,0 +1,22 @@
+.content {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20dvh;
+    justify-content: space-between;
+    align-content: center;
+}
+.content h {
+    font-size: 1em;
+}
+.content p {
+    font-size: 0.4em;
+}
+#textside {
+    width: 80%;
+}
+#piccies img {
+    width: 100%;
+}
+#nav2 {
+    color: red;
+}
