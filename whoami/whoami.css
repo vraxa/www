@@ -2,7 +2,7 @@
     margin-left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    margin-top: 20dvh;
+    margin-top: 10dvh;
     justify-content: space-between;
     align-content: center;
 }
@@ -16,6 +16,7 @@
     width: 80%;
 }
 #piccies img {
+    margin-top: 10dvh;
     width: 100%;
 }
 #nav2 {

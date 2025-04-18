@@ -1,7 +1,11 @@
 .content {
-    margin-left: 20%;
+    margin-top: 10dvh;
     width: 80%;
-    margin-top: 20dvh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 .content h {
     font-size: 1em;

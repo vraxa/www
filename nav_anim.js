@@ -12,12 +12,10 @@ window.onload = (event) => {
     checkmobile();
   }
 };
-
-const nav = document.getElementById("navbar");
 let isnavsticky = false;
 let remindershown = false;
 let gonetotop = false;
-
+const nav = document.getElementById("navbar");
 function checkmobile() {
   if (
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
