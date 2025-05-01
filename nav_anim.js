@@ -27,6 +27,8 @@ function checkmobile() {
     document.getElementById("titlebar").style.fontSize = "1.5em";
     document.getElementById("titlecontainer").style.paddingTop = "1%";
     document.getElementById("blinker").style.fontSize = "1.5em";
+    document.getElementById("content").style.marginTop = "10dvh";
+    document.getElementById("content").style.width = "90%";
   } else {
     // false for not mobile device
     console.log("not mobile device");

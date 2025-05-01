@@ -1,0 +1,103 @@
+.content {
+    margin-top: 10dvh;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.post {
+    background-color: #171717;
+    padding: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+    width: 100%;
+    margin-bottom: 3%;
+    align-text: left;
+    align-content: space-around;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#btnnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navdiv {
+    padding: 20%;
+    flex-grow: 1;
+    color: black;
+    background-color: white;
+    transition:
+        color 0.3s,
+        background-color 0.3s;
+}
+.navdiv:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.content h {
+    font-size: 1em;
+}
+.content p {
+    font-size: 0.4em;
+}
+#nav5 {
+    color: red;
+}
+#grid {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gridbox {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+    height: 500px;
+    width: 500px;
+    background-color: #171717;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    transition:
+        background-color 0.3s,
+        color 0.3s,
+        padding 1s;
+}
+.gridbox p,
+.gridbox h3 {
+    text-align: left;
+    text-wrap: wrap;
+    padding-left: 5%;
+    transition: padding 0.3s;
+}
+.box-inner {
+    transition: padding 0.3s ease;
+}
+.box-inner {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+.gridbox:hover {
+    background-color: #a8a8a8;
+    color: black;
+}

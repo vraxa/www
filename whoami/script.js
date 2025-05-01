@@ -1,8 +1,8 @@
 window.onload = (event) => {
   console.log("loaded");
   document.getElementById("titlebar").innerHTML = "...";
-  let b = document.getElementById("textside").innerHTML;
-  document.getElementById("textside").innerHTML = "";
-  animatetitle(b, 0.5, false, "textside");
+  let b = document.getElementById("titlemove").innerHTML;
+  document.getElementById("titlemove").innerHTML = " ";
+  animatetitle(b, 35, false, "titlemove");
   checkmobile();
 };
